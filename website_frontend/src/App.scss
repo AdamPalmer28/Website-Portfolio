@@ -1,0 +1,9 @@
+// custom css configuration
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+	"custom-color": rgb(13, 236, 5),
+);
+
+$body-color: rgb(45, 238, 6);
