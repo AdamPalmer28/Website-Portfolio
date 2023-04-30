@@ -1,0 +1,19 @@
+.NumberBar {
+	width: 10px;
+	background-color: red;
+}
+
+.NumberCanvas {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+
+	justify-content: center;
+
+	border: 2px solid rgb(11, 24, 204);
+	border-radius: 12px;
+
+	padding: 4px;
+
+	height: 500px;
+}

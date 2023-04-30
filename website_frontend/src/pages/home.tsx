@@ -1,4 +1,4 @@
-import NumberSorter from "../component/sorter";
+import NumberSorter from "../component/numberSorter/sorterUI";
 
 const Home = () => {
 	return (

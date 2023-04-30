@@ -1,12 +1,15 @@
 import Button from "react-bootstrap/Button";
+import "./sorterUI.scss";
+import DrawAllNumbers from "./drawBars";
 
 const NumberSorter = () => {
 	return (
-		<div className="m-3 border border-5 border-blue">
+		<div className="container sorterui">
 			<span>
 				My sorter
 				<Button>Button</Button>
 			</span>
+			<DrawAllNumbers />
 		</div>
 	);
 };
